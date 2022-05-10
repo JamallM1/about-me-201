@@ -1,1 +1,5 @@
-# about-me-201
+# Project Name : About Me #
+
+## Author: Jamall Malik ##
+
+## Lab 01 ##
