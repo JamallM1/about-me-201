@@ -43,4 +43,3 @@ if (responsefive == 'yes' || responsefive == 'Y'){
 }
 let name = prompt("What is your name?",)
 document.write("hello" + name) 
-
