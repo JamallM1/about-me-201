@@ -2,30 +2,43 @@
 
 console.log('Good Day World');
 
-let responseOne = prompt('Do I have children?');
+function one(){
+  let responseOne = prompt('Do I have children?');
 
-if(responseOne === 'no' || responseOne =="n"){
-  alert('That is correct!');
-} else if (responseOne === 'yes' || responseOne === 'y'){
-  alert('That is incorrect');
+  if(responseOne === 'no' || responseOne =="n"){
+    alert('That is correct!');
+  } else if (responseOne === 'yes' || responseOne === 'y'){
+    alert('That is incorrect');
+  }
 }
 
-let responsetwo = prompt('Do I currently live in Florida?');
+one();
 
-if (responsetwo == 'yes' || responsetwo == 'Y'){
-  alert ('Nice Job!');
-} else if (responsetwo == 'no' || responsetwo == "n"){
-  alert ('Dang it! Try again');
+function two(){
+  let responsetwo = prompt('Do I currently live in Florida?');
+
+  if (responsetwo == 'yes' || responsetwo == 'Y'){
+    alert ('Nice Job!');
+  } else if (responsetwo == 'no' || responsetwo == "n"){
+    alert ('Dang it! Try again');
+  }
 }
 
-let responsethree = prompt('Is favorite color is blue?');
+two();
 
-if(responsethree == 'yes' || responsethree == 'y'){
-  alert('Great Job!');
-} else if (responsethree == 'no' || responsethree == 'n'){
-  alert ('Almost try again!');
+function three(){
+  let responsethree = prompt('Is favorite color is blue?');
+
+  if(responsethree == 'yes' || responsethree == 'y'){
+    alert('Great Job!');
+  } else if (responsethree == 'no' || responsethree == 'n'){
+    alert ('Almost try again!');
+  }
 }
 
+three();
+
+function four(){
 let responsefour = prompt('Is favorite artist is Drake?');
 
 if (responsefour == 'yes' || responsefour == 'Y'){
@@ -33,7 +46,11 @@ if (responsefour == 'yes' || responsefour == 'Y'){
 } else if (responsefour == 'no' || responsefour == 'n'){
   alert ('this was not even close!');
 }
+}
 
+four();
+
+function five(){
 let responsefive = prompt('Am I a Golden state fan?');
 
 if (responsefive == 'yes' || responsefive == 'Y'){
@@ -41,7 +58,9 @@ if (responsefive == 'yes' || responsefive == 'Y'){
 } else if (responsefive == 'no' || responsefive == 'n'){
   alert ('this was not even close!');
 }
-let name = prompt("What is your name?",)
-document.write("hello" + name) 
+}
 
-let responesix = prompt('what is my favorite number?');
+five();
+
+let name = prompt("What is your name?",)
+document.write("hello" + name)
